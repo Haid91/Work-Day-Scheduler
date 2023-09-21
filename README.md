@@ -27,3 +27,26 @@ WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist#
+
+Pseudo code for html
+typical
+allows save button to have the icon "save" optional
+font families
+use of bootstrap component
+list timeblocks from 24 hour clock and 12 hours clock translation
+jquery and moment links from https://cdnjs.com/libraries/day.js/
+Pseudo code for css
+typical setup using html attributes and classes
+Pseudo code for js
+tells engine to load 1)html & 2)css first.
+display current day & time.
+get nearby values.
+taken the change from the sibling html description attribute
+taken the change from the parent html id attribute
+set items in local storage.
+load any saved data from LocalStorage - do this for each hour created. Should follow html 24 hour to 12 hour conversion.
+get current number of hours.
+use of moment.js
+loop over time blocks
+check if we've moved past this time, click into css/html given classes of past, present, or future
+re-run function
