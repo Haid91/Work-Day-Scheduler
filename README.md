@@ -30,6 +30,8 @@ THEN the saved events persist#
 
 https://github.com/Haid91/Work-Day-Scheduler
 
+https://haid91.github.io/Work-Day-Scheduler/
+
 
 
 Pseudo code for html
