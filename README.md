@@ -28,6 +28,10 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist#
 
+https://github.com/Haid91/Work-Day-Scheduler
+
+
+
 Pseudo code for html
 typical
 allows save button to have the icon "save" optional
